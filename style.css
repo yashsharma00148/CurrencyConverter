@@ -1,0 +1,149 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(converter-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 100px;
+}
+.app{
+    width: 90%;
+    margin: auto;
+    max-width: 600px;
+    color: white;
+    /* background: rgba(255, 255, 255, 0.1); Optional: gives a translucent white overlay */
+            backdrop-filter: blur(7px); /* Applies
+    /* margin-top: 100px; */
+    padding: 20px 20px;
+    border-radius: 20px;
+    /* padding: 20px 0px; */
+    
+}
+.app h1{
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 4px;
+    word-spacing: 9px;
+}
+.input-section{
+    display: flex;
+    flex-direction: column;
+    margin-top: 35px;
+    
+}
+
+label{
+    font-size: 18px;
+}
+#input{
+    background-color: rgba(5, 5, 30, 0.741);
+    backdrop-filter: blur(10px);
+    padding-left: 4px;
+    font-size: 17px;
+    font-weight: 700;
+    color: #fff;
+    width:60%;
+    border: 1.4px solid blue;
+    outline: none;
+    height: 30px;
+    margin-top: 4px;
+    border-radius: 5px;
+}
+
+.select-country img{
+    border-radius: 13px;
+}
+
+.from-section{
+    display: flex;
+    flex-direction: column;
+    /* width: 40%; */
+    gap: 10px;
+}
+.to-section{
+    display: flex;
+    flex-direction: column;
+    /* width: 40%; */
+    gap: 10px;
+}
+.from-select{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.select-country{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+    padding: 0px 30px;
+}
+
+.icon{
+    font-size: 35px;
+    color: #fff;
+    margin-top: 20px;
+    /* width: 20%; */
+}
+select{
+    width: 80px;
+    height: 37px;
+    background: transparent;
+    color: #fff;
+    border: 2px solid #111;
+    border-radius: 10px;
+    font-size: 16px;
+    outline: none;
+}
+option{
+    color: #111;
+
+}
+.exchange-btn{
+    /* display: flex; */
+    width: 70%;
+    margin: 50px auto;
+    margin-left: 15%;
+    height: 40px;
+    border: 2px solid rgb(77, 15, 247);
+    background-color: rgba(255, 255, 255, 0.69);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    cursor: pointer;
+
+}
+.message{
+    width: 70%;
+    margin: 0px auto;
+    margin-left: 15%;
+    height: 40px;
+    border: 2px solid rgb(77, 15, 247);
+    background: transparent;
+    background-color: rgba(0, 0, 0, 0.434);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
